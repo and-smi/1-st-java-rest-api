@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html ng-app="NewApp">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        Первое API
+    </title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js">
+    </script>
+    <script type="text/javascript" src="js/app.js">
+    </script>
+</head>
+<body>
+    <h1>
+        Что сидишь? действуй!
+    </h1>
+    <div ng-controller="readStaff">
+        <div ng-repeat="staff in readstaff">
+            {{staff}}
+        </div>
+    </div>
+</body>
+</html>
