@@ -1,0 +1,9 @@
+Файлы бэкенд приложения лежат в папке demo/src/main/java/com/example/demo, файлы фронтенд приложения в demo/src/main/resources/static.
+Сервер находится по адресу http://localhost:8080.
+Структура БД: organdstaff (БД). Таблица firms: FirmID (PK, serial), FirmName (varchar(500)), HeadOfficeId (int).
+Таблица staff: StaffId (PK, serial), StaffName (varchar(500)).
+Таблица staffname: StaffId (PK, serial), StaffName (varchar(500)), FirmId (int), BossId (int).
+1) Необходимо сконфигурировать приложение как Spring. Главный файл находится по пути: src/main/java/com/example/demo/MainProgramm.java.
+2) В файле DataBaseConfig.java установить имя пользователя и пароль в строках 13 и 14, в строке 12 прописать адрес, по которому находится бд. 
+3) Запустить проект.
+4) В браузере прописать путь к любому html файлу src/main/resources/static/changeFirm.html.
